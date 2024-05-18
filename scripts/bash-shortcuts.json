@@ -1,0 +1,32 @@
+{
+    "shortcuts": {
+        "fcba1cb4-4601-45d8-b919-515d152c56ef": {
+            "id": "fcba1cb4-4601-45d8-b919-515d152c56ef",
+            "name": "Konsole",
+            "cmd": "LD_PRELOAD= QT_SCALE_FACTOR=1.25 konsole",
+            "position": 1,
+            "isApp": true,
+            "hooks": [],
+            "passFlags": false
+        },
+        "e2c3b148-858e-4df2-96d5-4ebc29c41b01": {
+            "id": "e2c3b148-858e-4df2-96d5-4ebc29c41b01",
+            "name": "download from tailscale",
+            "cmd": "tailscale file get ~/Downloads",
+            "position": 2,
+            "isApp": false,
+            "passFlags": false,
+            "hooks": []
+        },
+        "2e63d7ad-7b14-4c4c-87be-2465626876b1": {
+            "id": "2e63d7ad-7b14-4c4c-87be-2465626876b1",
+            "name": "stop stardrop",
+            "cmd": "pkill Internal",
+            "position": 3,
+            "isApp": false,
+            "passFlags": false,
+            "hooks": []
+        }
+    },
+    "webSocketPort": "5000"
+}
